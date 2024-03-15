@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: darkorange;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: darkcyan;
+}
+
+a:hover {
+    text text-decoration: underline;
+}
+
+section {
+    margin: 3px 0;
+}
+
+footer {
+    background-color: darkgrey;
+    padding: 10px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.highlight {
+    background-color: darkcyan;
+}
+
+#biodata1 {
+    background-color: darkorange;
+    color: black;
+    display: inline-block;
+    padding: 2px 70px 2px 20px;
+    margin-left: -20px;
+    margin-top: 35px;
+}
+
+#pendidikan2 {
+    background-color: darkorange;
+    color: black;
+    display: inline-block;
+    padding: 2px 70px 2px 20px;
+    margin-left: -20px;
+    margin-top: 35px;
+}
+
+#skills3 {
+    background-color: darkorange;
+    color: black;
+    display: inline-block;
+    padding: 2px 70px 2px 20px;
+    margin-left: -20px;
+    margin-top: 35px;
+}
+
+a[href^="https://"] {
+    color: brown;
+}
+
+li:hover {
+background-color: lightseagreen;
+}
+
+h2::before {
+    content: "➤ ";
+}
+
+section {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 20px 0;
+    box-shadow:0 0 5px #aaa;
+}
