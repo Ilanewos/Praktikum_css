@@ -4,9 +4,140 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width-device-width, initial-scale-1.8">
         <title>Curriculum Vitae</title>
-        <link real="stylesheet" href="style.css">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+            }
+
+            header {
+                background-color: darkorange;
+                color: black;
+                padding: 20px;
+                text-align: center;
+            }
+
+            nav ul {
+                list-style-type: none;
+                padding: 0;
+                text-align: center;
+            }
+
+            nav ul li {
+                display: inline;
+                margin-right: 20px;
+            }
+
+            nav ul li a {
+                text-decoration: none;
+                color: darkcyan;
+            }
+
+            a:hover {
+                text text-decoration: underline;
+            }
+
+            section {
+                margin: 3px 0;
+            }
+
+            footer {
+                background-color: darkgrey;
+                padding: 10px;
+                padding-right: 50px;
+                text-align: center;
+            }
+
+            .highlight {
+                background-color: darkcyan;
+            }
+
+            #biodata1 {
+                background-color: darkorange;
+                color: black;
+                display: inline-block;
+                padding: 2px 70px 2px 20px;
+                margin-left: -20px;
+                margin-top: 35px;
+            }
+
+            #pendidikan2 {
+                background-color: darkorange;
+                color: black;
+                display: inline-block;
+                padding: 2px 70px 2px 20px;
+                margin-left: -20px;
+                margin-top: 35px;
+            }
+
+            #skills3 {
+                background-color: darkorange;
+                color: black;
+                display: inline-block;
+                padding: 2px 70px 2px 20px;
+                margin-left: -20px;
+                margin-top: 35px;
+            }
+
+            a[href^="https://"] {
+                color: brown;
+            }
+           
+            li:hover {
+            background-color: lightseagreen;
+            }
+
+            h2::before {
+                content: "➤ ";
+            }
+
+            section {
+                border: 1px solid #ddd;
+                padding: 15px;
+                margin: 20px 0;
+                box-shadow: 0 0 5px #aaa;
+            }
+        </style>
     </head>
     <body>
-        
+        <header>
+            <h1>Sirilan Faustina Ewos</h1>
+            <p>Mahasiswa | Sekretaris BPM-FTI</p>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#biodata">Biodata</a></li>
+                <li><a href="#pendidikan">Pendidikan</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </ul>
+        </nav>
+        <section id="biodata" class="highlight">
+            <h2 id="biodata1">Biodata Diri</h2>
+            <p> Nama: Sirilan Faustina Ewos</p>
+            <p>Email: ilanewos04@gmail.com</p>
+            <p>Nama panggil: Ilan</p>
+            <p>Tempat Tanggal Lahir: Malawatar, 27 Juni 2004</p>
+            <p>Alamat: Jln. Dewata</p>
+            <p>Jenis Kelamin: Perempuan</p>
+            <p>No Telp: 081236556382</p>
+            <p>Agama: Katolik</p>
+            <p>Golongan Darah: B</p>
+        </section>
+        <section id="pendidikan">
+            <h2 id="pendidikan2">Pendidikan</h2>
+            <ul>
+                <li>TK St. Familia Waenakeng</li>
+                <li>SD Negri Daleng</li>
+                <li>SMP Negri 1 Lembor</li>
+                <li>SMAK St. Familia Waenakeng</li>
+            </ul>
+        </section>
+        <section id="skills">
+            <h2 id="skills3">Skills</h2>
+            <p>Saya bisa memasak, menari, dan menyanyi</p>
+            <p>Saya juga bisa pandai menggunakan Microsoft Word</p>
+        </section>
+        <footer>
+            <p>Selanjutnya kalian bisa ikuti saya di social media: <a href="https://www.instagram.com/ilanewos/">Instagram</a> dan <a href="https://t.me/ilanewos">Telegram</a></p>
+        </footer>
     </body>
 </html>
